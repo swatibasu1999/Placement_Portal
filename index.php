@@ -220,7 +220,7 @@
   </div>
 
   <!--FORM-VALIDATION-->
-  <script>
+  <!-- <script>
     function validate()
     {
       var name = document.getElementById("user").value;
@@ -241,7 +241,7 @@
         window.alert("Enter all your details");
       }
     }
-  </script>
+  </script> -->
 
 
        <!-- Optional JavaScript -->
