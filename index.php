@@ -1,3 +1,9 @@
+<?php
+    require_once 'library.php';
+    if(chkLogin()){
+        header("Location: index.php");
+    }
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -243,6 +249,22 @@
     }
   </script> -->
 
+  <script>
+    function chk(){
+    
+    // alert("1");
+ var pass = document.getElementById("pass").value;
+ var cpass = document.getElementById("cpass").value;
+ 
+     if(pass!=cpass){
+       document.getElementById("error").innerHTML = "Passwords do not match!";
+         document.getElementById("cpass").value = "";
+     }
+     else{
+         document.getElementById("error").innerHTML = "Passwords match!";
+     }
+ }
+    </script>
 
        <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

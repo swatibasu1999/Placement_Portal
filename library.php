@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    //session_start();
     function register($document){
         global $collection;
         $collection->insert($document);
@@ -17,8 +17,6 @@
         }
     }
     function setsession($email){
-     
-       
         
         $_SESSION["userLoggedIn"] = 1;
         global $collection;
@@ -32,7 +30,7 @@
         
         //var_dump($_SESSION);
         
-        if($_SESSION["userLoggedIn"]== 1){
+        if(isset($_SESSION["userLoggedIn"])){
             return true;
         }
         else{
