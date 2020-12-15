@@ -18,11 +18,11 @@ if (chkLogin()) {
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/navbar_stylesheet.css">
   <!--Bootstrap CS-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!--Just for trial , font will be changed-->
-  <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
-
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,7 +31,7 @@ if (chkLogin()) {
   <!--NAVBAR-->
 
   <!--CAROUSAL IMAGES WITH CAPTIONS-->
-  <section class="first-side" style="height: 85%;">
+  <section class="first-side" style="height: 85%; font-family: 'Dancing Script', cursive;">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -55,7 +55,7 @@ if (chkLogin()) {
         <div class="carousel-item">
           <img src="images/c8.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Let's Get Hired...</h5>
+            <h2>Let's Get Hired...</h2>
             <p>Kick Start your Preperation right from here...</p>
           </div>
         </div>
@@ -79,7 +79,7 @@ if (chkLogin()) {
   </section>
 
   <!--COMPANY DRIVES-->
-  <section id="company-drive" class="company py-5">
+  <section id="company-drive" class="company py-5" style="font-family: 'Montserrat', sans-serif;">
     <div class="company-header text-center py-2">
       <h1><strong>Current Mock Drives</strong></h1>
     </div>
@@ -88,19 +88,19 @@ if (chkLogin()) {
         <div class="card card-company">
           <img src="images/Accenture-Logo.png" class="card-img-top image" alt="..." class="img-thumbnail">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#exampleModal2">Success</button>
+            <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#exampleModal1">Start</button>
           </div>
         </div>
         <div class="card card-company">
           <img src="images/Cisco-logo.png" class="card-img-top image" alt="..." class="img-thumbnail">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-success btn-lg">Success</button>
+            <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#exampleModal2">Start</button>
           </div>
         </div>
         <div class="card card-company">
           <img src="images/IBM-Logo.png" class="card-img-top image" alt="..." class="img-thumbnail">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-success btn-lg">Success</button>
+            <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#exampleModal3">Start</button>
           </div>
         </div>
       </div>
@@ -110,13 +110,13 @@ if (chkLogin()) {
         <div class="card card-company">
           <img src="images/Infosys-Logo.png" class="card-img-top image" alt="..." class="img-thumbnail">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-success btn-lg">Success</button>
+            <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#exampleModal4">Start</button>
           </div>
         </div>
         <div class="card card-company">
           <img src="images/tata-consultancy-services-tcs-logo.png" class="card-img-top image" alt="..." class="img-thumbnail">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-success btn-lg">Success</button>
+            <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#exampleModal5">Start</button>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ if (chkLogin()) {
   </section>
 
   <!--CONTACT SECTION-->
-  <section id="id=contact" class="contact">
+  <section id="id=contact" class="contact" style="font-family: 'Montserrat', sans-serif;">
     <div class="contact-heading">
       <h1>Contact Our Team</h1>
     </div>
@@ -168,7 +168,7 @@ if (chkLogin()) {
   <!--CONTACT SECTION-->
 
   <!-- Modal LOGIN/SIGN-UP-->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -214,30 +214,131 @@ if (chkLogin()) {
   </div>
   <!-- Modal LOGIN/SIGN-UP-->
 
-  <!--MODAL SECTION FOR CISCO-->
-  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!--MODAL SECTION FOR ACCENTURE-->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <div class="modal-header drive-m">
+          <h5 class="modal-title" id="exampleModalLabel"><strong>ACCENTURE</strong></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body" style="background-color: indianred;">
-          <p>Cisco Systems, Inc. is an American multinational technology conglomerate headquartered in San Jose, California, in the center of Silicon Valley.
-          Cisco develops, manufactures and sells networking hardware, software, telecommunications equipment and other high-technology services and products.
-          </p>
+        <div class="modal-body m-body">
+          <p>Accenture is a global professional services company with leading capabilities in digital, cloud and security.</p>
+          <p>Accenture embraces the power of change to create 360° value and shared success in India for our clients, people, shareholders, partners and communities.</p>
+          <p>CEO: Julie Sweet (1 Sep 2019–)</p>
+          <p>Headquarters: Dublin, Ireland</p>
           <p><strong>Login/Sign-Up to kick-start your preparation</strong></p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="modal-footer drive-m">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Login/Sign-Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL SECTION FOR ACCENTURE-->
+
+  <!--MODAL SECTION FOR CISCO-->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header drive-m">
+          <h5 class="modal-title" id="exampleModalLabel"><strong>CISCO</strong></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body m-body">
+          <p>Cisco Systems, Inc. is an American multinational technology conglomerate headquartered in San Jose, California, in the center of Silicon Valley.</p>
+          <p>Cisco develops, manufactures and sells networking hardware, software, telecommunications equipment and other high-technology services and products.</p>
+          <p><strong>Login/Sign-Up to kick-start your preparation</strong></p>
+        </div>
+        <div class="modal-footer drive-m">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Login/Sign-Up</button>
         </div>
       </div>
     </div>
   </div>
   <!--MODAL SECTION FOR CISCO-->
+
+  <!--MODAL SECTION FOR IBM-->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header drive-m">
+          <h5 class="modal-title" id="exampleModalLabel"><strong>CISCO</strong></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body m-body">
+          <p>International Business Machines Corporation is an American multinational technology and consulting company headquartered in Armonk, New York, with more than 350,000 employees serving clients in 170 countries.</p>
+          <p>CEO: Arvind Krishna (6 Apr 2020–)</p>
+          <p>Founder: Charles Ranlett Flint</p>
+          <p><strong>Login/Sign-Up to kick-start your preparation</strong></p>
+        </div>
+        <div class="modal-footer drive-m">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Login/Sign-Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL SECTION FOR IBM-->
+
+  <!--MODAL SECTION FOR INFOSYS-->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header drive-m">
+          <h5 class="modal-title" id="exampleModalLabel"><strong>CISCO</strong></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body m-body">
+          <p>Infosys Limited, is an Indian multinational corporation that provides business consulting, information technology and outsourcing services. The company is headquartered in Bangalore, Karnataka, India.</p>
+          <p>Founded: 7 July 1981, Pune</p>
+          <p>CEO: Salil Parekh (2 Jan 2018–)</p>
+          <p><strong>Login/Sign-Up to kick-start your preparation</strong></p>
+        </div>
+        <div class="modal-footer drive-m">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Login/Sign-Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL SECTION FOR INFOSYS-->
+
+  <!--MODAL SECTION FOR TCS-->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header drive-m">
+          <h5 class="modal-title" id="exampleModalLabel"><strong>CISCO</strong></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body m-body">
+          <p>Tata Consultancy Services Limited is an Indian multinational information technology services and consulting company headquartered in Mumbai, Maharashtra, India.</p>
+          <p>It is a subsidiary of the Tata Group and operates in 149 locations across 46 countries.</p>
+          <p>Founded: 1 April 1968</p>
+          <p>CEO: Rajesh Gopinathan (21 Feb 2017–)</p>
+          <p><strong>Login/Sign-Up to kick-start your preparation</strong></p>
+        </div>
+        <div class="modal-footer drive-m">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Login/Sign-Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL SECTION FOR TCS-->
 
 
   <!--FORM-VALIDATION-->

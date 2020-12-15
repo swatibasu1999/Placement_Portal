@@ -1,8 +1,8 @@
  <!--NAVBAR-->
- <section class="header" id="navbar">
+ <section class="header" id="navbar" style="font-family: 'Montserrat', sans-serif;">
    <nav class="navbar fixed-top navbar-expand-lg navbar-dark header" style="height: 80px;">
      <a class="navbar-brand" href="#">
-       <h1>Let's Get Hired</h1>
+       <h1><strong>LET'S GET HIRED</strong></h1>
      </a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>

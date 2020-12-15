@@ -1,0 +1,27 @@
+/*---------------------------------------
+    Navigation Links section              
+-----------------------------------------*/
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #1C2331
+    }
+}
+
+.navbar-dark.scrolled {
+    background-color: black !important;
+}
+
+.header {
+    font-size: 1.5rem;
+}

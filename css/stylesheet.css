@@ -1,60 +1,46 @@
-body{
-    font-family: 'Poppins', sans-serif;  /*FOR TRIAL*/
-
-}
-
 /*ABOUT SECTION- ROADMAP*/
-.about{
-    background-image: 
-    url(../images/ex3.jpg);
+
+.about {
+    background-image: url(../images/ex3.jpg);
     background-size: cover;
     background-position: center;
 }
-.roadmap{
+
+.roadmap {
     width: 65%;
     height: 80%;
 }
 
-/*---------------------------------------
-    Navigation Links section              
------------------------------------------*/
-
-@media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #1C2331!important;
-    }
+.carousel, .carousel .carousel-inner, .carousel .carousel-inner .active, .carousel .carousel-inner .carousel-item, .view, body, html {
+    height: 100%
 }
 
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+/* .page-footer, .top-nav-collapse {
+    background-color: #1C2331
+} */
 
-.navbar-dark.scrolled{
-    background-color: black !important ;
+/*CAROUSAL IMAGES*/
 
+.carousel-caption {
+    position: absolute;
+    top: 200px;
+    font-size: 4rem;
 }
- .header{
-     font-size: 1.5rem;
- }
 
- /*CAROUSAL IMAGES*/
- .carousel-caption{
-     position: absolute;
-     top: 200px;
-     font-size: 4rem;
+/*LOGIN/SIGNUP MODAL*/
 
- }
-
- /*LOGIN/SIGNUP MODAL*/
-.modal-header{
+.modal-header {
     background-color: #bbbbbb;
 }
- .modal-body.body {
+
+.modal-body.body {
     margin: 0;
     color: #6a6f8c;
     background: #c8c8c8;
     font: 600 16px/18px 'Open Sans', sans-serif
 }
 
- .login-box {
+.login-box {
     width: 100%;
     margin: auto;
     max-width: 525px;
@@ -72,8 +58,7 @@ body{
     background: rgba(0, 77, 77, .9)
 }
 
-.login-snip .login,
-.login-snip .sign-up-form {
+.login-snip .login, .login-snip .sign-up-form {
     top: 0;
     left: 0;
     right: 0;
@@ -84,15 +69,11 @@ body{
     transition: all .4s linear
 }
 
-.login-snip .sign-in,
-.login-snip .sign-up,
-.login-space .form-group .check {
+.login-snip .sign-in, .login-snip .sign-up, .login-space .form-group .check {
     display: none
 }
 
-.login-snip .tab,
-.login-space .form-group .label,
-.login-space .form-group .button {
+.login-snip .tab, .login-space .form-group .label, .login-space .form-group .button {
     text-transform: uppercase
 }
 
@@ -105,8 +86,7 @@ body{
     border-bottom: 2px solid transparent
 }
 
-.login-snip .sign-in:checked+.tab,
-.login-snip .sign-up:checked+.tab {
+.login-snip .sign-in:checked+.tab, .login-snip .sign-up:checked+.tab {
     color: #fff;
     border-color: #1161ee
 }
@@ -122,16 +102,13 @@ body{
     margin-bottom: 15px
 }
 
-.login-space .form-group .label,
-.login-space .form-group .input,
-.login-space .form-group .button {
+.login-space .form-group .label, .login-space .form-group .input, .login-space .form-group .button {
     width: 100%;
     color: #fff;
     display: block
 }
 
-.login-space .form-group .input,
-.login-space .form-group .button {
+.login-space .form-group .input, .login-space .form-group .button {
     border: none;
     padding: 15px 20px;
     border-radius: 25px;
@@ -161,8 +138,7 @@ body{
     background: rgba(255, 255, 255, .1)
 }
 
-.login-space .form-group label .icon:before,
-.login-space .form-group label .icon:after {
+.login-space .form-group label .icon:before, .login-space .form-group label .icon:after {
     content: '';
     width: 10px;
     height: 2px;
@@ -208,14 +184,11 @@ body{
     transform: rotate(0)
 }
 
-*,
-:after,
-:before {
+*, :after, :before {
     box-sizing: border-box
 }
 
-.clearfix:after,
-.clearfix:before {
+.clearfix:after, .clearfix:before {
     content: '';
     display: table
 }
@@ -239,76 +212,84 @@ a {
 .foot {
     text-align: center
 }
-.image{
+
+.image {
     height: 60%;
     overflow: hidden;
     position: relative;
-  }
+}
+
 .card-company {
     width: 450px;
     margin-left: 10px;
-    box-shadow:20px 20px 10px grey;  
-    
+    box-shadow: 20px 20px 10px grey;
 }
 
 ::placeholder {
     color: #b3b3b3
 }
- 
-  .card-deck{
-      padding: 1.5rem;
-      
-  }
 
-  .card-title{
-      font-family: cursive;
-      text-align: center;
-      font-size: 2rem;
-  }
+.card-deck {
+    padding: 1.5rem;
+}
 
-.card-body{
+.card-title {
+    font-family: cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card-body {
     background: #000;
 }
 
-
 /* Contact Section */
-.contact{
-    font-family: 'Poppins', sans-serif;
-    padding:150px 0px 0px 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/cover.jpg);
+
+.contact {
+    padding: 150px 0px 0px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
     background-attachment: fixed;
     padding-bottom: 15px;
 }
-.contact-image{
+
+.contact-image {
     border-radius: 50%;
-    
 }
-.link{
+
+.link {
     padding-top: 2rem;
     text-align: center;
 }
-.link-decorate{
-    color:white;
-} 
-.link-decorate:hover{
+
+.link-decorate {
+    color: white;
+}
+
+.link-decorate:hover {
     color: #c6fced;
     text-decoration: none;
-  }
-  .contact-heading{
-      padding-bottom: 2rem;
-      text-align: center;
-  }
-  .company{
+}
+
+.contact-heading {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.company {
     background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
-  }
+}
 
-  /*MODAL CLASS M1-ACCENTURE*/
-  /* .m1{
-      background-color: #98acf8;
-  } */
+/*MODAL CLASS M1-ACCENTURE*/
+
+.m-body {
+    background-color: #f6f6f6;
+}
+
+.drive-m {
+    background-color: #a5dee5;
+}

@@ -5,10 +5,10 @@
     'mongodb+srv://admin_project:admin_project@cluster0.gwbjb.mongodb.net/?retryWrites=true&w=majority');
     //echo "Connection to database Successfull!";echo"<br />";
 
-    $db = $client->placement_portal;
+    $db = $client->test;
     //echo "Databse placement_portal selected";
 
-    $collection = $db->user_details; 
+    $collection = $db->mycol; 
     //echo "Collection user_details Selected Successfully";
     }
     catch (Exception $e){
