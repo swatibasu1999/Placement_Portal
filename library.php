@@ -1,8 +1,8 @@
 <?php
-    //session_start();
+    // session_start();
     function register($document){
         global $collection;
-        $collection->insert($document);
+        $collection->insertOne($document);
         return true;
     }
     
@@ -30,7 +30,7 @@
         
         //var_dump($_SESSION);
         
-        if(isset($_SESSION["userLoggedIn"])){
+        if(!isset($_SESSION["userLoggedIn"])){
             return true;
         }
         else{
@@ -43,5 +43,4 @@
         unset($_SESSION["email"]);
         return true;
     }
-
 ?>

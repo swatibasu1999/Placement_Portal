@@ -1,8 +1,7 @@
 <?php
+// session_start();
 require_once 'library.php';
-if (chkLogin()) {
-  header("Location: index.php");
-}
+include 'connection.php';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->

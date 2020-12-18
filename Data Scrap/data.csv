@@ -1,0 +1,30 @@
+S.No.,Questions,Option-1,Option-2,Option-3,Option-4
+1,"1. In how many ways can we give change for rs 100 using 1 rupee and 2 rupee coins? For example for 5 rs we can give three ways(1,1,1,1) (1,1,1,2) )(,1,2,2)",52 ways,50 ways,51 ways,53 ways
+,,,,,
+2,2. We are driving along a highway at a constant speed of 55 miles per hour (mph). You observe a car one-half mile behind you. The car is moving fast and zooms past you exactly one minute later. How fast is this car traveling (mph) if its speed is constant?,85,70,82,80
+,,,,,
+3,"3. What is the next number in the series 70,54,45,41?",35,40,44,45
+,,,,,
+4,"4. George can do some work in 8 hours. Paul can do the same work in 10 hours while Hari can do the same work in 12 hours. All the three of them start working at 9 AM. while George stops work at 11 am, the remaining two complete the work, approximately when will the work be finished?",11:30 AM,12 noon,1:00 PM,12.30 PM
+,,,,,
+5,5. Shush and Komal can do a job together in 7 days. Shush is 7/4 times as efficient as Komal. The same job can be done by Shush alone in,49/4 Days,49/3  Days,11 Days,28/3 Days
+,,,,,
+6,"6. a,b,c are positive numbers such that a+b+ab= 8, b+c+bc=15 and c+a+ca = 35. What is the value of a+b+c+abc?",34,36,35,33
+,,,,,
+7,"7. The 260th term of the series a,b,b,c,c,c,d,d,d,d,e,e,e,e,e,f,f,f,f,f,f,….is:",U,V,W,T
+,,,,,
+8,"8. It is possible to pair up all the numbers from 1 to 70 so that the positive difference between the numbers in each pair is always the same. For example, one such pairing up is (1,2), (3,4), (5,6),….(69,70). Here the common difference is 1. What is the sum of all such common differences?",630,640,650,660
+,,,,,
+9,9. A  regular polygon with 12  sides (dodecagon) is inscribed in a square of area 24 square units as shown in the figure where four of the vertices are mid points of the sides of the square . The area of the dodecagon in square units is.,19,20,17,18
+,,,,,
+10,"10. In how many ways can we give change for 100 using 1 rupee and 2 rupee coins? For example for 5 rs, we can give in three ways : (1,1,1,1,1) (1,1,1,2) (1,2,2)",51,48,50,49
+,,,,,
+11,"11. In the figure shown, a triangle is divided into nine stripes of equal height each parallel to the same side of the triangle. The shaped stripes have a total area of 135 square units. What is the area of the triangle in square units?",143 square units.,243 square units.,135 square units.,240 square units.
+,,,,,
+12,"12. In the IT department of backrub, the administrator password is changed every month. The team of administrator spread across the globe, receive an 8 digits number via email. This number is to be prefixed with a single-digit number and suffixed with a single-digit number to get the actual password. The password is divisible by 11 and 8. If the team received 54218345 this month. Then which of the following pairs give valid prefix and suffix respectively?","8,7","7,8","6,8","8,6"
+,,,,,
+13,"13. The people of the land of unsymmetric to ensure that there is very little symmetry in life. Even their unit of length (no one knows what it is) is called as unseen. It is their pride that the front wheel and the rear wheels of their bikes are of different sizes but are made so that they will not slip on the road. In a certain model of bike, the radius of the front wheel is 28 enzymes and that of the back wheels is 14 unsyms after driving a certain distance if a front wheel had revolution 54 times how many revolutions would the back wheel have undergone?",111,110,109,108
+,,,,,
+14,"14. Rs. 3000 is distributed among A, B, and C such that A gets 2/3rd of what B and C together get and C gets ½ of what A and B together get. Find C’s share.",1000,1004,2000,1001
+,,,,,
+15,"15. Two finals are scheduled - The Wimbledon match and the World Cup Cricket at the same time. Anu wants to watch the Wimbledon finals and her brother Vinu wants to watch WCC final. They decide to roll a tetrahedral die twice. The tetrahedral Is numbered 1,2,3,4 on its four sides and all numbers are equally likely to appear. Anu rolls fist and then Vinu rolls. If the number on the first roll Is strictly greater than the number on the second roll. Anu wins and gets to watch Wimbledon. What Is the probability that Anu will get to watch Wimbledon?",\frac{3}{10}[\latex],\frac{3}{8}[\latex],\frac{1}{8}[\latex],\frac{5}{8}[\latex]

@@ -18,9 +18,36 @@
          <li class="nav-item">
            <a class="nav-link" href="#id=contact">Contact</a>
          </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login/Sign-Up</a>
-         </li>
+         <?php
+          if(isset($_SESSION["userLoggedIn"]))
+          {
+          ?>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+             <ul class="nav navbar-nav nav-flex-icons ml-auto ">
+               <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION["uname"]; ?></a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                 <!-- <a class="dropdown-item" href="changepassword.php">Change Account Password</a> -->
+                 <a class="dropdown-item" href="dashboard.php">Dashboard</a>
+                 <a class="dropdown-item" href="logout.php">Logout</a>
+               </div>
+             </ul>
+           </div>
+         <?php
+          } else {
+          ?>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+             <ul class="nav navbar-nav nav-flex-icons ml-auto ">
+               <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login/Sign-Up</a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                 <!-- <a class="dropdown-item" href="changepassword.php">Change Account Password</a> -->
+                 <a class="dropdown-item" href="login.php">Login/Sign-Up</a>
+                 <a class="dropdown-item" href="admin.php">Admin Login</a>
+               </div>
+             </ul>
+           </div>
+         <?php
+          }
+          ?>
        </ul>
      </div>
    </nav>

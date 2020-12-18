@@ -1,0 +1,269 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.countdowntimer {
+	cursor: pointer; 
+        border: 1px solid #ffffff; 
+        background-color: transparent; 
+        height: 40px; 
+        width: 150px; 
+        color: #d3d3d3; 
+        font-size: 1.3em; 
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+	
+	
+	
+	
+}
+.card {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  background-color: #000111;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card1 {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  
+  color: white;
+  background-color: #999999;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card1 button:hover {
+  opacity: 0.7;
+}
+
+.bgimage{
+	background-image: url('ex7.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.btn { 
+        cursor: pointer; 
+        border: 1px solid #ffffff; 
+        background-color: transparent; 
+        height: 40px; 
+        width: 150px; 
+        color: #d3d3d3; 
+        font-size: 1.3em; 
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+		
+    } 
+
+.menu{
+
+	width: 100%;
+	height: 70px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 65px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h5{
+	padding-left: 30px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width: 50%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left:430px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 65px;
+	margin-left: 30px;
+	text-transform: uppercase;
+
+}
+
+.rightmenu1{
+	width: 50%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu1 ul{
+	margin-left:600px;
+}
+
+.rightmenu1 ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 65px;
+	margin-left: 30px;
+	text-transform: uppercase;
+
+}
+.rightmenu ul li:hover { color: #04ff66; } 
+
+.text{
+	width:50%;
+	margin-top: 30px;
+	margin-left: 400px;
+	text-align: center;
+	color:white;
+	background-color: rgba(0,0,0,0.4);
+	text-decoration : none;
+}
+.link {
+	color:white;
+}
+
+.link: hover{
+	color: green;
+	text-decoration: none;
+}
+
+
+.text h3{
+	color: white;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h2{
+	color: white;
+	font-size:30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500px;
+	margin:10px 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.text1 h4{
+	margin-left: 30px;
+	margin-top : 30px;
+	color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200px;
+}
+
+.text2 {
+	width:50%;
+	margin-top: 30px;
+	margin-left: 400px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.text2 h2{
+	color: white;
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400px;
+	margin:10px 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	
+}
+.btn {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.btn1 {
+	cursor: pointer; 
+    border: 1px solid #ffffff; 
+    background-color: transparent; 
+    height: 40px; 
+    width: 150px; 
+    color: #d3d3d3; 
+    font-size: 1.3em; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+	margin-left: 30px;
+	margin-top: 50px;
+	text-decoration: none;
+}
+
+.btn2 {
+	cursor: pointer; 
+    border: 1px solid #ffffff; 
+    background-color: transparent; 
+    height: 50px; 
+    width: 200px; 
+    color: #d3d3d3; 
+    font-size: 1.3em; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
