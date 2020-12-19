@@ -167,7 +167,7 @@ include 'connection.php';
   <!--CONTACT SECTION-->
 
   <!-- Modal LOGIN/SIGN-UP-->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
+  <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -210,7 +210,7 @@ include 'connection.php';
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Modal LOGIN/SIGN-UP-->
 
   <!--MODAL SECTION FOR ACCENTURE-->
@@ -268,7 +268,7 @@ include 'connection.php';
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header drive-m">
-          <h5 class="modal-title" id="exampleModalLabel"><strong>CISCO</strong></h5>
+          <h5 class="modal-title" id="exampleModalLabel"><strong>IBM</strong></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -293,7 +293,7 @@ include 'connection.php';
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header drive-m">
-          <h5 class="modal-title" id="exampleModalLabel"><strong>CISCO</strong></h5>
+          <h5 class="modal-title" id="exampleModalLabel"><strong>INFOSYS</strong></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -318,7 +318,7 @@ include 'connection.php';
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header drive-m">
-          <h5 class="modal-title" id="exampleModalLabel"><strong>CISCO</strong></h5>
+          <h5 class="modal-title" id="exampleModalLabel"><strong>TCS</strong></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>

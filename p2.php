@@ -24,7 +24,7 @@ $total_questions = $temp->count();
 	<br>
 		<strong>Type:</strong> Multiple Choise</br>
 	<br>
-		<strong>Estimated Time:</strong> <?php echo $total_questions * 1.5; ?></br>
+		<strong>Estimated Time:</strong> <?php echo $total_questions * 3; ?></br>
 
 	
 	<!-- <p>
